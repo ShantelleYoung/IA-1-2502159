@@ -1,0 +1,59 @@
+body {
+			background-image: url("gradient_bg.png");
+  			background-color: #dfbce9a0;
+  			margin: 0;
+  			padding: 0;
+				}
+	
+
+		h1, p {
+  			margin-top: 60px;
+			margin-left: 10px;
+
+			}
+
+		ul {
+				position: fixed;
+				top: 0;
+				width: 100%;
+    			list-style-type: none;
+    			margin: 0;
+    			padding: 0;
+   				overflow: hidden;
+   				background-color: #333;
+			}
+
+		ul li {float: left;}
+
+		ul li a {
+  			display: block;
+  			color: white;
+  			text-align: center;
+  			padding: 14px 16px;
+			font-size: 15pt;
+  		text-decoration: none;
+			}
+
+		ul li a:hover:not(.active) {background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);background-color: lavender;}
+	
+
+		#set2 {color:rgb(35, 49, 57); font: size 100pt; text-align: center; font-family: cursive,Times New Georgia, 'Times New Roman', Times, serif; }
+
+		.footer {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(0, 217, 255);
+   color: rgb(63, 15, 15);
+   text-align: center;
+    }
+
+		.double-line {
+border-top: 4px double #333; /* Top double line */
+border-bottom: 4px double #333; /* Bottom double line */
+padding: 10px;
+
+		#set1 {color:rgb(82, 10, 18); background-color:lightblue; font-size:24pt; font-family:Arial; }
+			
+		#set2 {color:rgb(35, 49, 57); font: size 80pt; text-align: center; font-family:Times New Georgia, 'Times New Roman', Times, serif; }
